@@ -7,7 +7,6 @@ const handleTrailers = async () => {
     );
     const data = await respose.data;
     id = data.items[0].id;
-    console.log(data.items);
     for (let i = 0; i < 4; i++) {
       document.getElementById(
         `Title-${i + 1}`
