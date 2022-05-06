@@ -612,6 +612,7 @@ li > img:hover {
 
 .container-main-evidence {
   margin: 40px 0px;
+  padding: 0 24px;
 }
 
 .container-main-evidence .evidence-title {
@@ -767,7 +768,7 @@ li > img:hover {
   padding: 0 24px;
 }
 
-.container-main-whatToWatch .navbar {
+.container-main-whatToWatch-videoList .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -780,27 +781,27 @@ li > img:hover {
   text-align: center;
 }
 
-.container-main-whatToWatch .navbar h1 {
+.container-main-whatToWatch-videoList .navbar h1 {
   color: #ffd500;
   font-size: 25px;
 }
 
-.container-main-whatToWatch .navbar a {
+.container-main-whatToWatch-videoList .navbar a {
   padding-right: 40px;
   text-decoration: none;
   color: #5799ef;
   font-size: 13px;
 }
 
-.container-main-whatToWatch .navbar a:hover {
+.container-main-whatToWatch-videoList .navbar a:hover {
   background: rgba(87, 153, 239, 0.1);
 }
 
-.container-main-whatToWatch .main-container {
+.container-main-whatToWatch-videoList .main-container {
   padding-top: 50px;
 }
 
-.container-main-whatToWatch .main-container .main-container-left {
+.container-main-whatToWatch-videoList .main-container .main-container-left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -810,23 +811,23 @@ li > img:hover {
   text-align: center;
 }
 
-.container-main-whatToWatch .main-container .main-container-left h3 {
+.container-main-whatToWatch-videoList .main-container .main-container-left h3 {
   font-size: 20px;
 }
 
-.container-main-whatToWatch .main-container .main-container-left .orange-container {
+.container-main-whatToWatch-videoList .main-container .main-container-left .orange-container {
   padding-right: 10px;
   font-size: 40px bolder;
   color: #ffd500;
 }
 
-.container-main-whatToWatch .main-container .main-container-left .fa-solid {
+.container-main-whatToWatch-videoList .main-container .main-container-left .fa-solid {
   padding-top: 5px;
   padding-left: 20px;
   font-size: 10px;
 }
 
-.container-main-whatToWatch .main-container .main-container-center {
+.container-main-whatToWatch-videoList .main-container .main-container-center {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -838,14 +839,14 @@ li > img:hover {
   font-size: 15px;
 }
 
-.container-main-whatToWatch .main-container .main-container-center .fa-bookmark {
+.container-main-whatToWatch-videoList .main-container .main-container-center .fa-bookmark {
   color: #38373785;
   font-size: 42px;
   padding-bottom: 20px;
   position: relative;
 }
 
-.container-main-whatToWatch .main-container .main-container-center .fa-plus {
+.container-main-whatToWatch-videoList .main-container .main-container-center .fa-plus {
   background-color: #38373785;
   color: #ffffff;
   font-size: 14px;
@@ -854,17 +855,17 @@ li > img:hover {
   left: 10px;
 }
 
-.container-main-whatToWatch .main-container .main-container-center .h4-first {
+.container-main-whatToWatch-videoList .main-container .main-container-center .h4-first {
   padding-bottom: 3px;
   font-size: 18px;
 }
 
-.container-main-whatToWatch .main-container .main-container-center .h4-second {
+.container-main-whatToWatch-videoList .main-container .main-container-center .h4-second {
   padding-bottom: 30px;
   font-size: small;
 }
 
-.container-main-whatToWatch .main-container .main-container-center a {
+.container-main-whatToWatch-videoList .main-container .main-container-center a {
   color: black;
   text-decoration: none;
   background: #ffd500;
@@ -872,8 +873,12 @@ li > img:hover {
   border-radius: 3px 3px;
 }
 
-.container-main-whatToWatch .main-container .main-container-center a:hover {
+.container-main-whatToWatch-videoList .main-container .main-container-center a:hover {
   background: rgba(255, 213, 0, 0.9);
+}
+
+.container-main-whatToWatch-favorites {
+  padding: 0 24px;
 }
 
 .container-main-whatToWatch-favorites .title {
@@ -2656,7 +2661,8 @@ li > img:hover {
 }
 
 .container-main-whatToWatch-other {
-  margin: 24px 0;
+  margin: 24px 0px;
+  padding: 0 24px;
 }
 
 .container-main-whatToWatch-other h1 {
