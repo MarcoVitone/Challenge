@@ -761,9 +761,10 @@ li > img:hover {
   transition: 0.3s;
 }
 
-.container-main-whatToWatch {
+.container-main-whatToWatch-videoList {
   color: #fff;
   margin: 40px 0px;
+  padding: 0 24px;
 }
 
 .container-main-whatToWatch .navbar {
