@@ -1,0 +1,699 @@
+.container-main-whatToWatch-favorites {
+  .title {
+    padding-top: 40px;
+    .title1 {
+      display: flex;
+      padding-bottom: 10px;
+      h1 {
+        font-size: 25px;
+      }
+      .orange-container {
+        padding-right: 10px;
+        font-size: 40px bolder;
+        color: rgb(255, 213, 0);
+      }
+      .fa-solid {
+        padding-top: 12px;
+        padding-left: 20px;
+        font-size: 10px;
+      }
+    }
+
+    p {
+      font-size: 15px;
+      color: rgba(255, 255, 255, 0.7);
+      padding-bottom: 10px;
+    }
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 181.31px);
+    grid-auto-flow: column;
+    grid-gap: 16px;
+    position: relative;
+
+    // Carta 1
+
+    .card-1 {
+      .card-img {
+        width: 100%;
+        height: 274px;
+      }
+
+      // Descrizione
+
+      .description {
+        height: auto;
+        background: #1a1a1a;
+
+        .description1-1 {
+          display: flex;
+          padding: 0 0 9px 9px;
+
+          .fa-solid {
+            padding-top: 12px;
+            color: #f5c518;
+            padding-right: 5px;
+            font-size: 16px;
+          }
+          h4 {
+            padding-top: 12px;
+            font-size: 16px;
+            color: #ffffffb3;
+            margin-right: 12px;
+          }
+          a {
+            text-decoration: none;
+            color: #5799ef;
+            padding: 12px 12px;
+            .fa-regular {
+              font-size: 16px;
+            }
+          }
+
+          a:hover {
+            background: #202020;
+            border-radius: 5px;
+            .fa-regular {
+              color: #ffffff;
+              background: #202020;
+            }
+          }
+        }
+
+        .description1-2 {
+          height: 40px;
+          a {
+            font-size: 16px;
+            color: #ffffff;
+            padding: 2px 8px;
+            text-decoration: none;
+          }
+          a:hover {
+            text-decoration: underline;
+          }
+        }
+
+        .description-1-3 {
+          margin-top: 12px;
+          display: flex;
+          justify-content: center;
+
+          a {
+            text-decoration: none;
+            border-radius: 5px;
+            background-color: #ffffff14;
+            font-size: 14px;
+            padding: 10px 16px;
+            color: #5799ef;
+            font-weight: 600;
+          }
+          a:hover {
+            background-color: #ffffff21;
+          }
+        }
+
+        .trailer {
+          display: flex;
+          justify-content: center;
+          margin-top: 8px;
+          padding: 10px 0px;
+          a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: 600;
+            padding: 9px 16px;
+
+            .fa-play {
+              color: #ffffffb3;
+              margin-right: 6px;
+            }
+          }
+          a:hover {
+            background-color: #ffffff14;
+            border-radius: 5px;
+
+            .fa-play {
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+
+    // Carta 2
+
+    .card-2 {
+      .card-img {
+        width: 100%;
+        height: 274px;
+      }
+
+      .description {
+        height: auto;
+        background: #1a1a1a;
+
+        .description1-1 {
+          display: flex;
+          padding: 0 0 9px 9px;
+
+          .fa-solid {
+            padding-top: 12px;
+            color: #f5c518;
+            padding-right: 5px;
+            font-size: 16px;
+          }
+          h4 {
+            padding-top: 12px;
+            font-size: 16px;
+            color: #ffffffb3;
+            margin-right: 12px;
+          }
+          a {
+            text-decoration: none;
+            color: #5799ef;
+            padding: 12px 12px;
+            .fa-regular {
+              font-size: 16px;
+            }
+          }
+
+          a:hover {
+            background: #202020;
+            border-radius: 5px;
+            .fa-regular {
+              color: #ffffff;
+              background: #202020;
+            }
+          }
+        }
+
+        .description1-2 {
+          height: 40px;
+          a {
+            font-size: 16px;
+            color: #ffffff;
+            padding: 2px 8px;
+            text-decoration: none;
+          }
+          a:hover {
+            text-decoration: underline;
+          }
+        }
+
+        .description-1-3 {
+          margin-top: 12px;
+          display: flex;
+          justify-content: center;
+
+          a {
+            text-decoration: none;
+            border-radius: 5px;
+            background-color: #ffffff14;
+            font-size: 14px;
+            padding: 10px 16px;
+            color: #5799ef;
+            font-weight: 600;
+          }
+          a:hover {
+            background-color: #ffffff21;
+          }
+        }
+
+        .trailer {
+          display: flex;
+          justify-content: center;
+          margin-top: 8px;
+          padding: 10px 0px;
+          a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: 600;
+            padding: 9px 16px;
+
+            .fa-play {
+              color: #ffffffb3;
+              margin-right: 6px;
+            }
+          }
+          a:hover {
+            background-color: #ffffff14;
+            border-radius: 5px;
+
+            .fa-play {
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+
+    // Carta 3
+    .card-3 {
+      .card-img {
+        width: 100%;
+        height: 274px;
+      }
+
+      .description {
+        height: auto;
+        background: #1a1a1a;
+
+        .description1-1 {
+          display: flex;
+          padding: 0 0 9px 9px;
+
+          .fa-solid {
+            padding-top: 12px;
+            color: #f5c518;
+            padding-right: 5px;
+            font-size: 16px;
+          }
+          h4 {
+            padding-top: 12px;
+            font-size: 16px;
+            color: #ffffffb3;
+            margin-right: 12px;
+          }
+          a {
+            text-decoration: none;
+            color: #5799ef;
+            padding: 12px 12px;
+            .fa-regular {
+              font-size: 16px;
+            }
+          }
+
+          a:hover {
+            background: #202020;
+            border-radius: 5px;
+            .fa-regular {
+              color: #ffffff;
+              background: #202020;
+            }
+          }
+        }
+
+        .description1-2 {
+          height: 40px;
+          a {
+            font-size: 16px;
+            color: #ffffff;
+            padding: 2px 8px;
+            text-decoration: none;
+          }
+          a:hover {
+            text-decoration: underline;
+          }
+        }
+
+        .description-1-3 {
+          margin-top: 12px;
+          display: flex;
+          justify-content: center;
+
+          a {
+            text-decoration: none;
+            border-radius: 5px;
+            background-color: #ffffff14;
+            font-size: 14px;
+            padding: 10px 16px;
+            color: #5799ef;
+            font-weight: 600;
+          }
+          a:hover {
+            background-color: #ffffff21;
+          }
+        }
+
+        .trailer {
+          display: flex;
+          justify-content: center;
+          margin-top: 8px;
+          padding: 10px 0px;
+          a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: 600;
+            padding: 9px 16px;
+
+            .fa-play {
+              color: #ffffffb3;
+              margin-right: 6px;
+            }
+          }
+          a:hover {
+            background-color: #ffffff14;
+            border-radius: 5px;
+
+            .fa-play {
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+
+    // Carta 4
+
+    .card-4 {
+      .card-img {
+        width: 100%;
+        height: 274px;
+      }
+
+      .description {
+        height: auto;
+        background: #1a1a1a;
+
+        .description1-1 {
+          display: flex;
+          padding: 0 0 9px 9px;
+
+          .fa-solid {
+            padding-top: 12px;
+            color: #f5c518;
+            padding-right: 5px;
+            font-size: 16px;
+          }
+          h4 {
+            padding-top: 12px;
+            font-size: 16px;
+            color: #ffffffb3;
+            margin-right: 12px;
+          }
+          a {
+            text-decoration: none;
+            color: #5799ef;
+            padding: 12px 12px;
+            .fa-regular {
+              font-size: 16px;
+            }
+          }
+
+          a:hover {
+            background: #202020;
+            border-radius: 5px;
+            .fa-regular {
+              color: #ffffff;
+              background: #202020;
+            }
+          }
+        }
+
+        .description1-2 {
+          height: 40px;
+          a {
+            font-size: 16px;
+            color: #ffffff;
+            padding: 2px 8px;
+            text-decoration: none;
+          }
+          a:hover {
+            text-decoration: underline;
+          }
+        }
+
+        .description-1-3 {
+          margin-top: 12px;
+          display: flex;
+          justify-content: center;
+
+          a {
+            text-decoration: none;
+            border-radius: 5px;
+            background-color: #ffffff14;
+            font-size: 14px;
+            padding: 10px 16px;
+            color: #5799ef;
+            font-weight: 600;
+          }
+          a:hover {
+            background-color: #ffffff21;
+          }
+        }
+
+        .trailer {
+          display: flex;
+          justify-content: center;
+          margin-top: 8px;
+          padding: 10px 0px;
+          a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: 600;
+            padding: 9px 16px;
+
+            .fa-play {
+              color: #ffffffb3;
+              margin-right: 6px;
+            }
+          }
+          a:hover {
+            background-color: #ffffff14;
+            border-radius: 5px;
+
+            .fa-play {
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+
+    // Carta 5
+
+    .card-5 {
+      .card-img {
+        width: 100%;
+        height: 274px;
+      }
+
+      .description {
+        height: auto;
+        background: #1a1a1a;
+
+        .description1-1 {
+          display: flex;
+          padding: 0 0 9px 9px;
+
+          .fa-solid {
+            padding-top: 12px;
+            color: #f5c518;
+            padding-right: 5px;
+            font-size: 16px;
+          }
+          h4 {
+            padding-top: 12px;
+            font-size: 16px;
+            color: #ffffffb3;
+            margin-right: 12px;
+          }
+          a {
+            text-decoration: none;
+            color: #5799ef;
+            padding: 12px 12px;
+            .fa-regular {
+              font-size: 16px;
+            }
+          }
+
+          a:hover {
+            background: #202020;
+            border-radius: 5px;
+            .fa-regular {
+              color: #ffffff;
+              background: #202020;
+            }
+          }
+        }
+
+        .description1-2 {
+          height: 40px;
+          a {
+            font-size: 14px;
+            color: #ffffff;
+            padding: 2px 8px;
+            text-decoration: none;
+          }
+          a:hover {
+            text-decoration: underline;
+          }
+        }
+
+        .description-1-3 {
+          margin-top: 12px;
+          display: flex;
+          justify-content: center;
+
+          a {
+            text-decoration: none;
+            border-radius: 5px;
+            background-color: #ffffff14;
+            font-size: 14px;
+            padding: 10px 16px;
+            color: #5799ef;
+            font-weight: 600;
+          }
+          a:hover {
+            background-color: #ffffff21;
+          }
+        }
+
+        .trailer {
+          display: flex;
+          justify-content: center;
+          margin-top: 8px;
+          padding: 10px 0px;
+          a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: 600;
+            padding: 9px 16px;
+
+            .fa-play {
+              color: #ffffffb3;
+              margin-right: 6px;
+            }
+          }
+          a:hover {
+            background-color: #ffffff14;
+            border-radius: 5px;
+
+            .fa-play {
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+
+    // Carta 6
+
+    .card-6 {
+      .card-img {
+        width: 100%;
+        height: 274px;
+      }
+
+      .description {
+        height: auto;
+        background: #1a1a1a;
+
+        .description1-1 {
+          display: flex;
+          padding: 0 0 9px 9px;
+
+          .fa-solid {
+            padding-top: 12px;
+            color: #f5c518;
+            padding-right: 5px;
+            font-size: 16px;
+          }
+          h4 {
+            padding-top: 12px;
+            font-size: 16px;
+            color: #ffffffb3;
+            margin-right: 12px;
+          }
+          a {
+            text-decoration: none;
+            color: #5799ef;
+            padding: 12px 12px;
+            .fa-regular {
+              font-size: 16px;
+            }
+          }
+
+          a:hover {
+            background: #202020;
+            border-radius: 5px;
+            .fa-regular {
+              color: #ffffff;
+              background: #202020;
+            }
+          }
+        }
+
+        .description1-2 {
+          height: 40px;
+          a {
+            font-size: 16px;
+            color: #ffffff;
+            padding: 2px 8px;
+            text-decoration: none;
+          }
+          a:hover {
+            text-decoration: underline;
+          }
+        }
+
+        .description-1-3 {
+          margin-top: 12px;
+          display: flex;
+          justify-content: center;
+
+          a {
+            text-decoration: none;
+            border-radius: 5px;
+            background-color: #ffffff14;
+            font-size: 14px;
+            padding: 10px 16px;
+            color: #5799ef;
+            font-weight: 600;
+          }
+          a:hover {
+            background-color: #ffffff21;
+          }
+        }
+
+        .trailer {
+          display: flex;
+          justify-content: center;
+          margin-top: 8px;
+          padding: 10px 0px;
+          a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: 600;
+            padding: 9px 16px;
+
+            .fa-play {
+              color: #ffffffb3;
+              margin-right: 6px;
+            }
+          }
+          a:hover {
+            background-color: #ffffff14;
+            border-radius: 5px;
+
+            .fa-play {
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+    .a {
+      position: absolute;
+      right: 0;
+      top: 30%;
+      color: white;
+      border-radius: 5px;
+      background:rgba(117, 115, 115, 0.174);
+
+      .fa-solid {
+        color: #fff;
+        border: #fff solid 0.7px;
+        padding: 15px;
+        border-radius: 5px;
+        background: rgba(117, 115, 115, 0.174);
+      }
+      .fa-solid:hover {
+        color: #f5c518;
+        transition: 0.3s;
+      }
+    }
+  }
+}

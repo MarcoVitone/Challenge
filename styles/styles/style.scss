@@ -1,0 +1,41 @@
+@import "./navbar";
+@import "./trailers";
+// @import "./evidence";
+// @import "./watch";
+// @import "./watchpref";
+// @import "./exclusiveVideo";
+// @import "./streaming";
+// @import "./explore";
+// @import "./other";
+// @import "./footer";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  width: 100vw;
+  background-color: #000000;
+
+  &-main {
+    margin-top: 56px;
+    width: 100%;
+    max-width: 1280px;
+
+    @include w1280px {
+      max-width: 1024px;
+    }
+
+    @include w1280px {
+      max-width: 100%;
+    }
+  }
+}

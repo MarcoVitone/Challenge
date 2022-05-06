@@ -1,0 +1,136 @@
+.container-main-evidence {
+  margin: 40px 40px;
+  .evidence {
+    &-title {
+      font-size: 25px;
+      color: rgb(255, 213, 0);
+      padding-bottom: 20px;
+      font-family: Roboto, Helvetica, Arial, sans-serif;
+    }
+    &-pages {
+      display: grid;
+      grid-template-columns: 1fr 1fr 3fr;
+
+      // First-page
+
+      .first-page {
+        display: flex;
+        flex-direction: column;
+
+        .first-img {
+          width: 400px;
+        }
+        .first-img {
+          color: rgb(255, 213, 0);
+        }
+
+        .text {
+          display: flex;
+          text-decoration: none;
+          list-style: none;
+          text-align: center;
+          font-family: Roboto, Helvetica, Arial, sans-serif;
+          position: relative;
+          bottom: 30px;
+          background: rgba(0, 0, 0, 0);
+
+          h3 {
+            font-size: 15px;
+            color: #fff;
+            background: rgba(0, 0, 0, 0);
+          }
+
+          .fa-solid {
+            color: #fff;
+            padding-left: 7px;
+            padding-right: 7px;
+            background: rgba(0, 0, 0, 0);
+          }
+        }
+        .text-down {
+          color: #fff;
+          text-decoration: none;
+          padding-top: 5px;
+          font-size: 12px;
+          font-family: Roboto, Helvetica, Arial, sans-serif;
+        }
+        .text-down:hover {
+          text-decoration: underline;
+        }
+      }
+      .first-page:hover {
+        .fa-solid {
+          color: rgb(255, 213, 0);
+        }
+      }
+      // Second page
+      .second-page {
+        // border: 2px solid yellow;
+
+        .second-img {
+          width: 420px;
+          padding-left: 5px;
+        }
+        .text {
+          display: flex;
+          text-decoration: none;
+          list-style: none;
+          text-align: center;
+          font-family: Roboto, Helvetica, Arial, sans-serif;
+          padding-left: 10px;
+          position: relative;
+          bottom: 30px;
+          background: rgba(0, 0, 0, 0);
+        }
+        h3 {
+          font-size: 15px;
+          color: #fff;
+          background: rgba(0, 0, 0, 0);
+        }
+        .fa-solid {
+          color: #fff;
+          padding-left: 7px;
+          padding-right: 7px;
+          background: rgba(0, 0, 0, 0);
+        }
+        .text-down2 {
+            text-decoration: none;
+          h3 {
+            color: #fff;
+            text-decoration: none;
+            font-family: Roboto, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            padding-left: 10px;
+          }
+          h3:hover {
+            text-decoration: underline;
+          }
+        }
+        
+          }
+          .second-page:hover {
+            .fa-solid {
+              color: rgb(255, 213, 0);
+        }
+      }
+    }
+    .button {
+      color: #fff;
+      border: #fff solid 0.7px;
+      padding: 15px;
+      border-radius: 5px;
+      position: relative;
+      left: 800px;
+      bottom: 175px;
+      background: rgba(117, 115, 115, 0.174);
+
+      .fa-solid {
+        background: rgba(0, 0, 0, 0);
+      }
+    }
+    .button:hover {
+      color: rgb(255, 213, 0);
+      transition: 0.3s;
+    }
+  }
+}
