@@ -1,16 +1,26 @@
-@import "./_media-queries";
+@import "./media-queries";
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   margin: auto;
   width: 100vw;
   background-color: #000000;
 
   &-main {
+    margin-top: 56px;
     width: 100%;
     max-width: 1280px;
+
+    @include w1280px {
+      max-width: 1024px;
+    }
+
+    @include w1280px {
+      max-width: 100%;    
+    }
 
     &-trailers {
       width: 100%;
@@ -21,10 +31,20 @@
       &-mainImage {
         width: 849px;
         height: 547px;
+        background-image: url("https://m.media-amazon.com/images/M/MV5BMTQ1ZmIzOTAtNDcwZi00NDVkLWE4NWItYWNhZGY1MmVlZGU0XkEyXkFqcGdeQWRvb2xpbmhk._V1_.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         position: relative;
+
+        @include w1280px {
+          width: 667px;
+          height: 445px;
+        }
+        @include w1024px {
+          max-width: 1024px;
+          width: 100%;
+        }
 
         #next-trailer {
           color: white;
@@ -105,7 +125,12 @@
           img {
             width: 165px;
             height: 244px;
+            @include w1280px {
+              width: 132px;
+              height: 195px;
+            }
           }
+
 
           .fa-bookmark {
             color: #00000085;
@@ -137,6 +162,18 @@
             left: 180px;
             color: white;
 
+            @include w1280px {
+              width: 487px;
+              height: 92px;
+              left: 140px;
+            }
+
+            @include w1024px {
+              max-width: 811px;
+              width: 100%;
+            }
+
+
             .fa-circle-play {
               font-size: 72px;
               color: white;
@@ -146,8 +183,22 @@
             &-text {
               width: 480px;
 
+              @include w1280px {
+                width: 328px;
+              }
+
+              @include w1024px {
+                max-width: 516px;
+                width: 100%;
+              }
+
               h1 {
                 font-size: 32px;
+
+                @include w1280px {
+                  font-size: 24px;
+                  font-weight: 500;
+                }
               }
 
               h3 {
@@ -168,6 +219,10 @@
       &-others {
         margin-left: 11px;
         width: 403px;
+
+        @include w1024px {
+          display: none;
+        }
 
         h3 {
           color: #f5c518;
@@ -193,9 +248,17 @@
           display: flex;
           align-items: start;
 
+          @include w1280px {
+            height: 113px;
+          }
+
           img {
             width: 88px;
             height: 130px;
+            @include w1280px {
+              width: 67px;
+              height: 99px;
+            }
           }
 
           &-description {
@@ -223,6 +286,10 @@
               h3 {
                 font-size: 16px;
                 color: #ffffff;
+
+                @include w1280px {
+                  font-weight: 500;
+                }
               }
               h4 {
                 font-size: 14px;
