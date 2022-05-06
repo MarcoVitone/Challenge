@@ -9,9 +9,57 @@
 </head>
 <body>
     <div class="container">
-        <header class="container-navbar">
-            
-        </header>
+        <nav>
+        <img src="./imgs/menu.svg" alt="f-menu" id="mimg" class="first-menu" />
+        <img src="./imgs/IMDB.png" alt="imdb" id="imdb" />
+        <p id="menu"><img src="./imgs/menu.svg" alt="menu" id="mimg" />Menu</p>
+        <!-- Navbar  -->
+        <div id="scarch">
+          <div id="all" onclick="all_li()">
+            <div id="present-list">Tutto</div>
+            <img src="./imgs/triangle.svg" alt="triangle" id="triangle" />
+          </div>
+          <ui id="all-list">
+            <li id="ls-all">
+              <img src="./imgs/scarch.svg" id="list-img" />Tutto
+            </li>
+            <li id="ls-title">
+              <img src="./imgs/film-img.svg" id="list-img" />Titoli
+            </li>
+            <li id="ls-tv">
+              <img src="./imgs/television.svg" id="list-img" />Episodi TV
+            </li>
+            <li id="ls-celibs">
+              <img src="./imgs/group.svg" id="list-img" />Celebrità
+            </li>
+            <li id="ls-comp">
+              <img src="./imgs/company.svg" id="list-img" />Aziende
+            </li>
+            <li id="ls-key">
+              <img src="./imgs/right-arrow-triangle.svg" id="list-img" />Parole
+              Chiave
+            </li>
+            <li id="ls-adv">
+              <img src="./imgs/document-page-blank.svg" id="list-img" />Ricerca
+              Avanzata
+              <img
+                src="./imgs/right-arrow-triangle.svg"
+                class="right-arrow"
+                id="list-img"
+              />
+            </li>
+          </ui>
+          <input placeholder="Cerca su IMDb" />
+          <button type="submit"><img src="./imgs/scarch.svg" /></button>
+        </div>
+        <!-- post navbar -->
+        <div id="pro">IMDBPro</div>
+        <div id="vline"></div>
+        <div id="wlist">
+          <img src="./imgs/whtchlist.svg" id="wl-img" />Lista Video
+        </div>
+        <div id="sin">Accedi</div>
+      </nav>
         <main class="container-main">
             <section class="container-main-trailers">
                 <div id="background" class="container-main-trailers-mainImage">
@@ -385,13 +433,235 @@
                 </section>
             </section>
             <section class="container-main-exclusiveVideo">
+                <div class="container-main-exclusiveVideo-title">
+            <h3>Video esclusivi</h3>
+          </div>
                 <section class="container-main-exclusiveVideo-orginal">
-
+                    <div class="container-main-exclusiveVideo-orginal-title">
+              <h3>Originali IMDb<span>></span></h3>
+              <p>
+                Interviste alle celebrità, storie di intrattenimento di tendenza
+                e analisi degli esperti
+              </p>
+            </div>
+            <div class="container-main-exclusiveVideo-orginal-container">
+              <div
+                class="container-main-exclusiveVideo-orginal-container-interview"
+              >
+                <div
+                  class="container-main-exclusiveVideo-orginal-container-interview-img"
+                >
+                  <img src="./imgs/what to watch.png" alt="" />
+                </div>
+                <div
+                  class="container-main-exclusiveVideo-orginal-container-interview-info"
+                >
+                  <div
+                    class="container-main-exclusiveVideo-orginal-container-interview-info-title"
+                  >
+                    <h3>May's Most Anticipated Movies & TV Shows</h3>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="container-main-exclusiveVideo-orginal-container-interview"
+              >
+                <div
+                  class="container-main-exclusiveVideo-orginal-container-interview-img"
+                >
+                  <img src="./imgs/burning.png" alt="" />
+                </div>
+                <div
+                  class="container-main-exclusiveVideo-orginal-container-interview-info"
+                >
+                  <div
+                    class="container-main-exclusiveVideo-orginal-container-interview-info-title"
+                  >
+                    <h3>
+                      The 'Doctor Strange 2' Cast Answer Burning Questions
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="container-main-exclusiveVideo-orginal-container-interview"
+              >
+                <div
+                  class="container-main-exclusiveVideo-orginal-container-interview-img"
+                >
+                  <img src="./imgs/new comedy.png" alt="" />
+                </div>
+                <div
+                  class="container-main-exclusiveVideo-orginal-container-interview-info"
+                >
+                  <div
+                    class="container-main-exclusiveVideo-orginal-container-interview-info-title"
+                  >
+                    <h3>
+                      6 New Movies & Shows From Asian & Pacific Islander
+                      Comedians
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
                 </section>
             </section>
             <section class="container-main-streaming">
+                <div class="container-main-streaming-title">
+            <h3>Video esclusivi</h3>
+          </div>
                 <section class="container-main-streaming-primeVideo">
-
+                    <div class="container-main-streaming-primeVideo-title">
+              <h3>PRIME VIDEO</h3>
+              <p>Incluso con prime</p>
+            </div>
+            <div class="container-main-streaming-primeVideo-movie">
+              <div class="container-main-streaming-primeVideo-movie-card">
+                <div class="container-main-streaming-primeVideo-movie-card-img">
+                  <img src="./imgs/outer-range-poster.jpg" alt="">
+                  <i class="fa-solid fa-bookmark"><i class="fa-solid fa-plus"></i></i>
+                </div>
+                <div class="container-main-streaming-primeVideo-movie-card-description">
+                  <div class="container-main-streaming-primeVideo-movie-card-description-rating">
+                    <span>
+                      <i class="fa-solid fa-star"></i>
+                      <p>7.6</p>
+                    </span>
+                    <button><i class="fa-regular fa-star"></i></button>
+                  </div>
+                  <div class="container-main-streaming-primeVideo-movie-card-description-title">
+                    <h3>Outer Range</h3>
+                  </div>
+                  <div class="container-main-streaming-primeVideo-movie-card-description-watch">
+                    <a href="">Guarda ora <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+                  <div class="container-main-streaming-primeVideo-movie-card-description-trailer">
+                    <a href=""><i class="fa-solid fa-play"></i> Trailer</a>
+                  </div>
+                </div>
+              </div>
+              <div class="container-main-streaming-primeVideo-movie-card">
+                <div class="container-main-streaming-primeVideo-movie-card-img">
+                  <img src="./imgs/this is us.jpg" alt="">
+                  <i class="fa-solid fa-bookmark"><i class="fa-solid fa-plus"></i></i>
+                </div>
+                <div class="container-main-streaming-primeVideo-movie-card-description">
+                  <div class="container-main-streaming-primeVideo-movie-card-description-rating">
+                    <span>
+                      <i class="fa-solid fa-star"></i>
+                      <p>8.7</p>
+                    </span>
+                    <button><i class="fa-regular fa-star"></i></button>
+                  </div>
+                  <div class="container-main-streaming-primeVideo-movie-card-description-title">
+                    <h3>This Is Us</h3>
+                  </div>
+                  <div class="container-main-streaming-primeVideo-movie-card-description-watch">
+                    <a href="">Guarda ora <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+                  <div class="container-main-streaming-primeVideo-movie-card-description-trailer">
+                    <a href=""><i class="fa-solid fa-play"></i> Trailer</a>
+                  </div>
+                </div>
+              </div>
+              <div class="container-main-streaming-primeVideo-movie-card">
+                <div class="container-main-streaming-primeVideo-movie-card-img">
+                  <img src="./imgs/peaky blinders.jpg" alt="">
+                  <i class="fa-solid fa-bookmark"><i class="fa-solid fa-plus"></i></i>
+                </div>
+                <div class="container-main-streaming-primeVideo-movie-card-description">
+                  <div class="container-main-streaming-primeVideo-movie-card-description-rating">
+                    <span>
+                      <i class="fa-solid fa-star"></i>
+                      <p>7.6</p>
+                    </span>
+                    <button><i class="fa-regular fa-star"></i></button>
+                  </div>
+                  <div class="container-main-streaming-primeVideo-movie-card-description-title">
+                    <h3>Peaky Blinders</h3>
+                  </div>
+                  <div class="container-main-streaming-primeVideo-movie-card-description-watch">
+                    <a href="">Guarda ora <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+                  <div class="container-main-streaming-primeVideo-movie-card-description-trailer">
+                    <a href=""><i class="fa-solid fa-play"></i> Trailer</a>
+                  </div>
+                </div>
+              </div>
+              <div class="container-main-streaming-primeVideo-movie-card">
+                <div class="container-main-streaming-primeVideo-movie-card-img">
+                  <img src="./imgs/picard-star-trek-picard.jpg" alt="">
+                  <i class="fa-solid fa-bookmark"><i class="fa-solid fa-plus"></i></i>
+                </div>
+                <div class="container-main-streaming-primeVideo-movie-card-description">
+                  <div class="container-main-streaming-primeVideo-movie-card-description-rating">
+                    <span>
+                      <i class="fa-solid fa-star"></i>
+                      <p>7.4</p>
+                    </span>
+                    <button><i class="fa-regular fa-star"></i></button>
+                  </div>
+                  <div class="container-main-streaming-primeVideo-movie-card-description-title">
+                    <h3>Star Trek: Picard</h3>
+                  </div>
+                  <div class="container-main-streaming-primeVideo-movie-card-description-watch">
+                    <a href="">Guarda ora <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+                  <div class="container-main-streaming-primeVideo-movie-card-description-trailer">
+                    <a href=""><i class="fa-solid fa-play"></i> Trailer</a>
+                  </div>
+                </div>
+              </div>
+              <div class="container-main-streaming-primeVideo-movie-card">
+                <div class="container-main-streaming-primeVideo-movie-card-img">
+                  <img src="./imgs/The-Office-.jpg" alt="">
+                  <i class="fa-solid fa-bookmark"><i class="fa-solid fa-plus"></i></i>
+                </div>
+                <div class="container-main-streaming-primeVideo-movie-card-description">
+                  <div class="container-main-streaming-primeVideo-movie-card-description-rating">
+                    <span>
+                      <i class="fa-solid fa-star"></i>
+                      <p>9.0</p>
+                    </span>
+                    <button><i class="fa-regular fa-star"></i></button>
+                  </div>
+                  <div class="container-main-streaming-primeVideo-movie-card-description-title">
+                    <h3>The Office</h3>
+                  </div>
+                  <div class="container-main-streaming-primeVideo-movie-card-description-watch">
+                    <a href="">Guarda ora <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+                  <div class="container-main-streaming-primeVideo-movie-card-description-trailer">
+                    <a href=""><i class="fa-solid fa-play"></i> Trailer</a>
+                  </div>
+                </div>
+              </div>
+              <div class="container-main-streaming-primeVideo-movie-card">
+                <div class="container-main-streaming-primeVideo-movie-card-img">
+                  <img src="./imgs/attack on titan.jpg" alt="">
+                  <i class="fa-solid fa-bookmark"><i class="fa-solid fa-plus"></i></i>
+                </div>
+                <div class="container-main-streaming-primeVideo-movie-card-description">
+                  <div class="container-main-streaming-primeVideo-movie-card-description-rating">
+                    <span>
+                      <i class="fa-solid fa-star"></i>
+                      <p>9.0</p>
+                    </span>
+                    <button><i class="fa-regular fa-star"></i></button>
+                  </div>
+                  <div class="container-main-streaming-primeVideo-movie-card-description-title">
+                    <h3>L'attacco dei giganti</h3>
+                  </div>
+                  <div class="container-main-streaming-primeVideo-movie-card-description-watch">
+                    <a href="">Guarda ora <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+                  <div class="container-main-streaming-primeVideo-movie-card-description-trailer">
+                    <a href=""><i class="fa-solid fa-play"></i> Trailer</a>
+                  </div>
+                </div>
+              </div>
+            </div>
                 </section>
             </section>
             <section class="container-main-explore">
@@ -501,7 +771,55 @@
             </section>
         </main>
         <footer class="container-footer">
+            <div class="footer-social">
+          <ul class="icon-footer-social">
+            <li>
+              <i class="fa-brands fa-facebook-square"></i>
+            </li>
 
+            <li>
+              <i class="fa-brands fa-instagram"></i>
+            </li>
+
+            <li>
+              <i class="fa-brands fa-twitch"></i>
+            </li>
+
+            <li>
+              <i class="fa-brands fa-twitter"></i>
+            </li>
+
+            <li>
+              <i class="fa-brands fa-youtube"></i>
+            </li>
+          </ul>
+        </div>
+        <div class="link-footer">
+          <ul>
+            <li>
+              <a href="http://slyb.app.link/SKdy06A449">Scarica l'app IMDb</a>
+            </li>
+            <li><a href="">Aiuto</a></li>
+            <li><a href="">Indice del sito</a></li>
+            <li><a href="">IMDbPro</a></li>
+            <li><a href="">Box Office Mojo</a></li>
+            <li><a href="">Sviluppatore IMDb</a></li>
+          </ul>
+          <ul>
+            <li>
+              <a href="">Sala stampa</a>
+            </li>
+            <li><a href="">Pubblicità</a></li>
+            <li><a href="">Processi</a></li>
+            <li><a href="">Condizioni d'uso</a></li>
+            <li><a href="">Informativa sulla privacy</a></li>
+            <li><a href="">Pubblicità definita in base agli interessi</a></li>
+          </ul>
+        </div>
+        <div class="footer-logo-amazon">
+          <img src="./imgs/logo amazon.png" alt="" />
+        </div>
+        <p>© 1990-2022 by IMDb.com, Inc.</p>
         </footer>
     </div>
 
